@@ -6,6 +6,8 @@ This script will import data from your GSC account to a Google Sheet (and worksh
 
 - Git clone the repository
 
+- pip install searchconsole gspread
+
 - Create a new project in [Google Developers Console](https://console.cloud.google.com/apis/dashboard), then enable the APIs for Google Search Console and Google Sheets
 
 - Finally, create your credentials and select OAuth Client ID. Save the json file to the root of your project directory.
