@@ -20,5 +20,6 @@ gc = gspread.service_account()
 
 report = report.values.tolist()
 
+# Preserve the headers on the first row, add data below
 wks = gc.open(sheet).worksheet(worksheet)
 wks.update("A2", report)
