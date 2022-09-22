@@ -16,4 +16,4 @@ This script will import data from your GSC account to a Google Sheet (and worksh
 
 - Modify the "report" variable to set date ranges and filters
 
-- Execute!
+- python main.py and profit!
